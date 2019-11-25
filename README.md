@@ -9,7 +9,12 @@ The files here are:
 
 2. `Data_Transformation.ipynb`
 
-3. `Logistic_Regression_model.ipynb`
+3. `Logistic_Regression_model.ipynb`:
+ * Load the transformed data
+ * Separate categorical features (for one-hot encoding), numerical features (for scaling)
+ * Pipeline: feature transformations and logistic regression
+ * Fit logistic regression model and save predictions
+ * To be added: grid search CV
 
 
 4. `Stacked_models.ipynb`
