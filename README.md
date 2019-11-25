@@ -7,14 +7,16 @@ The files here are:
 
 1. `Explorative Data Analysis.ipynb`
 
-2. `Data_Transformation.ipynb`
+2. `Data_Transformation.ipynb`: feature engineering
+  * Build features on hero IDs
+    + target-encdoding hero IDs in two ways: first, for each hero, take # games won - # games lost. This new feature also measures hero popularity and may not be reflective of "normalized" success rates. So, for the second feature, take (# games won - # games lost)/total games played.
 
 3. `Logistic_Regression_model.ipynb`:
  * Load the transformed data
  * Separate categorical features (for one-hot encoding), numerical features (for scaling)
  * Pipeline: feature transformations and logistic regression
- * Fit logistic regression model and save predictions
- * To be added: grid search CV
+ * Grid search CV
+ * Fit logistic regression model for best parameters and save predictions
 
 
 4. `Stacked_models.ipynb`
