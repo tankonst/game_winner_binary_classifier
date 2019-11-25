@@ -10,6 +10,9 @@ The files here are:
 2. `Data_Transformation.ipynb`: feature engineering
   * Build features on hero IDs
     + target-encdoding hero IDs in two ways: first, for each hero, take # games won - # games lost. This new feature also measures hero popularity and may not be reflective of "normalized" success rates. So, for the second feature, take (# games won - # games lost)/total games played.
+    * Transform health: add features representing number of deaths per team and also average health per team
+    * Tranform coordinates: add indicator function for each player with 1 if in x team's base, 0 otherwise.
+    * Aggregate features for each team: take sum over all team players, and standard deviation over all team players.
 
 3. `Logistic_Regression_model.ipynb`:
  * Load the transformed data
