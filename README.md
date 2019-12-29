@@ -33,4 +33,4 @@ The repository contains next files:
     To be added
 
 5. `Feature_Selection_RFECV.ipynp`
-    Selective Feature Extraction with Cross Validation for identifying the optimal number of features for Logistic Regression. The resulting model on a smaller subset provides the same score the full set of features.
+    Recursive Feature Elimination with Cross Validation for identifying the optimal number of features for Logistic Regression. The resulting model on a smaller subset provides the same score the full set of features.
